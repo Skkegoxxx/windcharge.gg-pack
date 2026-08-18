@@ -1,0 +1,9 @@
+{
+  "subtitles.windcharge.death": "You died",
+  "subtitles.windcharge.kill":  "Enemy killed",
+  "subtitles.windcharge.win":   "Round won",
+  "subtitles.windcharge.lose":  "Round lost",
+  "subtitles.windcharge.buy":   "Item bought",
+  "subtitles.windcharge.sell":  "Item sold",
+  "subtitles.windcharge.click": "Click"
+}

@@ -1,11 +1,11 @@
 {
-  "death":  { "category": "master", "sounds": ["windcharge:death"] },
-  "kill1":  { "category": "master", "sounds": ["windcharge:kill1"] },
-  "kill2":  { "category": "master", "sounds": ["windcharge:kill2"] },
-  "kill3":  { "category": "master", "sounds": ["windcharge:kill3"] },
-  "win":    { "category": "master", "sounds": ["windcharge:win"] },
-  "lose":   { "category": "master", "sounds": ["windcharge:lose"] },
-  "buy":    { "category": "master", "sounds": ["windcharge:buy"] },
-  "sell":   { "category": "master", "sounds": ["windcharge:sell"] },
-  "click":  { "category": "master", "sounds": ["windcharge:click"] }
+  "death":  { "subtitle": "subtitles.windcharge.death", "sounds": ["windcharge:death"] },
+  "kill1":  { "subtitle": "subtitles.windcharge.kill",  "sounds": ["windcharge:kill1"] },
+  "kill2":  { "subtitle": "subtitles.windcharge.kill",  "sounds": ["windcharge:kill2"] },
+  "kill3":  { "subtitle": "subtitles.windcharge.kill",  "sounds": ["windcharge:kill3"] },
+  "win":    { "subtitle": "subtitles.windcharge.win",   "sounds": ["windcharge:win"] },
+  "lose":   { "subtitle": "subtitles.windcharge.lose",  "sounds": ["windcharge:lose"] },
+  "buy":    { "subtitle": "subtitles.windcharge.buy",   "sounds": ["windcharge:buy"] },
+  "sell":   { "subtitle": "subtitles.windcharge.sell",  "sounds": ["windcharge:sell"] },
+  "click":  { "subtitle": "subtitles.windcharge.click", "sounds": ["windcharge:click"] }
 }
