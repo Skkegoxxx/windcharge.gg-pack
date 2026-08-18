@@ -24,3 +24,14 @@ Bitmap glyphs added to `minecraft:default`, so they render in normal chat/tab/sc
 In LuckPerms / MiniMessage use the escape, e.g. ` ` for the ADMIN tag.
 
 Sizing lives in `assets/minecraft/font/default.json` (`height` = on-screen px, `ascent` = baseline offset). Tags are height 8 / ascent 7 to line up with chat text.
+
+## Custom items
+
+16×16 book items. Set an item's `minecraft:item_model` component to the id:
+
+- `windcharge:sharpness_book` (red)
+- `windcharge:density_book` (green)
+- `windcharge:wind_burst_book` (blue)
+- `windcharge:lunge_book` (purple)
+
+Each has an item definition in `assets/windcharge/items/`, a `minecraft:item/generated` model in `assets/windcharge/models/item/`, and a texture in `assets/windcharge/textures/item/`.
