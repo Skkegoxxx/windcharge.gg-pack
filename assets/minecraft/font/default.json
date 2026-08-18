@@ -1,0 +1,12 @@
+{
+  "providers": [
+    { "type": "reference", "id": "minecraft:include/space" },
+    { "type": "reference", "id": "minecraft:include/default" },
+    { "type": "bitmap", "file": "windcharge:font/executive.png", "ascent": 7, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "windcharge:font/admin.png", "ascent": 7, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "windcharge:font/creator.png", "ascent": 7, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "windcharge:font/helper.png", "ascent": 7, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "windcharge:font/media.png", "ascent": 7, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "windcharge:font/mod.png", "ascent": 7, "height": 8, "chars": [""] }
+  ]
+}
