@@ -7,5 +7,7 @@
   "lose":   { "subtitle": "subtitles.windcharge.lose",  "sounds": ["windcharge:lose"] },
   "buy":    { "subtitle": "subtitles.windcharge.buy",   "sounds": ["windcharge:buy"] },
   "sell":   { "subtitle": "subtitles.windcharge.sell",  "sounds": ["windcharge:sell"] },
-  "click":  { "subtitle": "subtitles.windcharge.click", "sounds": ["windcharge:click"] }
+  "click":  { "subtitle": "subtitles.windcharge.click", "sounds": ["windcharge:click"] },
+  "shuriken": { "subtitle": "subtitles.windcharge.shuriken", "sounds": ["windcharge:shuriken"] },
+  "jump":   { "subtitle": "subtitles.windcharge.jump",  "sounds": ["windcharge:jump"] }
 }
