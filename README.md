@@ -34,4 +34,12 @@ Sizing lives in `assets/minecraft/font/default.json` (`height` = on-screen px, `
 - `windcharge:wind_burst_book` (blue)
 - `windcharge:lunge_book` (purple)
 
+Other items:
+
+- `windcharge:shuriken` (throwing star)
+- `windcharge:bastion` (wooden shield)
+- `windcharge:tailwind` (wind orb)
+
 Each has an item definition in `assets/windcharge/items/`, a `minecraft:item/generated` model in `assets/windcharge/models/item/`, and a texture in `assets/windcharge/textures/item/`.
+
+To throw the shuriken as a projectile, have the server/plugin spawn a projectile (e.g. a snowball) whose item carries `minecraft:item_model` = `windcharge:shuriken` — it renders this flat sprite spinning in flight. The pack only supplies the look; a resource pack can't create new projectile entities on its own.
