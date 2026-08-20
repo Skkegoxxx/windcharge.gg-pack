@@ -53,6 +53,21 @@ for (const c of cells) {
   if (c.height !== 10 || c.ascent !== 8) fail.push(`${c.file} is height ${c.height}/ascent ${c.ascent}, expected 10/8`);
 }
 
+// The half-height font the plugin measures with Font.width(..., small=true): that maths
+// assumes ASCII is declared at exactly half the vanilla height, on the vanilla baseline.
+const smallPath = "assets/windcharge/font/small.json";
+if (!fs.existsSync(smallPath)) fail.push("assets/windcharge/font/small.json missing");
+else {
+  const small = JSON.parse(fs.readFileSync(smallPath, "utf8"));
+  const ascii = small.providers.find(p => p.file && p.file.includes("ascii"));
+  if (!ascii) fail.push("small.json has no ascii provider");
+  else {
+    if (ascii.height !== 4) fail.push(`small ascii is height ${ascii.height}, expected 4 (half of vanilla 8)`);
+    if (ascii.ascent - ascii.height !== -1) fail.push(`small ascii baseline is ${ascii.ascent - ascii.height}, expected -1 to match vanilla`);
+    if (ascii.chars.length !== 16) fail.push(`small ascii has ${ascii.chars.length} rows, expected 16`);
+  }
+}
+
 if (fail.length) {
   console.error("FAIL");
   for (const f of fail) console.error("  " + f);
