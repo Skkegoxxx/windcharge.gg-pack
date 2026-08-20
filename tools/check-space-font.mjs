@@ -42,13 +42,20 @@ for (let px = -1023; px <= 1023; px++) {
   checked++;
 }
 
-// The rank glyphs share this file; a bad edit here would take them out too.
-const glyphs = font.providers.filter(p => p.type === "bitmap").length;
-if (glyphs !== 6) fail.push(`expected 6 rank glyph providers, found ${glyphs}`);
+// The rank tags and the tab cells share this file; a bad edit here would take them out too.
+const bitmaps = font.providers.filter(p => p.type === "bitmap");
+const ranks = bitmaps.filter(p => /(executive|admin|creator|helper|media|mod).png/.test(p.file)).length;
+const cells = bitmaps.filter(p => /(cell|band)_(ally|enemy).png/.test(p.file));
+if (ranks !== 6) fail.push(`expected 6 rank glyphs, found ${ranks}`);
+if (cells.length !== 4) fail.push(`expected 4 tab cells, found ${cells.length}`);
+// The plugin jumps back over a cell by a fixed advance; that only holds at this size.
+for (const c of cells) {
+  if (c.height !== 10 || c.ascent !== 8) fail.push(`${c.file} is height ${c.height}/ascent ${c.ascent}, expected 10/8`);
+}
 
 if (fail.length) {
   console.error("FAIL");
   for (const f of fail) console.error("  " + f);
   process.exit(1);
 }
-console.log(`ok — ladder complete, ${checked} offsets exact, ${glyphs} rank glyphs intact`);
+console.log(`ok — ladder complete, ${checked} offsets exact, ${ranks} rank glyphs + ${cells.length} cells`);
