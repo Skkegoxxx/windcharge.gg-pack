@@ -27,10 +27,10 @@
         "\uF813": 512
       }
     },
-    { "type": "bitmap", "file": "windcharge:font/cell_ally.png", "ascent": 8, "height": 10, "chars": ["\uE020"] },
-    { "type": "bitmap", "file": "windcharge:font/cell_enemy.png", "ascent": 8, "height": 10, "chars": ["\uE021"] },
-    { "type": "bitmap", "file": "windcharge:font/band_ally.png", "ascent": 8, "height": 10, "chars": ["\uE022"] },
-    { "type": "bitmap", "file": "windcharge:font/band_enemy.png", "ascent": 8, "height": 10, "chars": ["\uE023"] },
+    { "type": "bitmap", "file": "windcharge:font/cell_ally.png", "ascent": 7, "height": 9, "chars": ["\uE020"] },
+    { "type": "bitmap", "file": "windcharge:font/cell_enemy.png", "ascent": 7, "height": 9, "chars": ["\uE021"] },
+    { "type": "bitmap", "file": "windcharge:font/band_ally.png", "ascent": 7, "height": 9, "chars": ["\uE022"] },
+    { "type": "bitmap", "file": "windcharge:font/band_enemy.png", "ascent": 7, "height": 9, "chars": ["\uE023"] },
     { "type": "bitmap", "file": "windcharge:font/executive.png", "ascent": 7, "height": 8, "chars": [""] },
     { "type": "bitmap", "file": "windcharge:font/admin.png", "ascent": 7, "height": 8, "chars": [""] },
     { "type": "bitmap", "file": "windcharge:font/creator.png", "ascent": 7, "height": 8, "chars": [""] },

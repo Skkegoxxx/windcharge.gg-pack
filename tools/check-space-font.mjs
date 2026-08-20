@@ -50,7 +50,7 @@ if (ranks !== 6) fail.push(`expected 6 rank glyphs, found ${ranks}`);
 if (cells.length !== 4) fail.push(`expected 4 tab cells, found ${cells.length}`);
 // The plugin jumps back over a cell by a fixed advance; that only holds at this size.
 for (const c of cells) {
-  if (c.height !== 10 || c.ascent !== 8) fail.push(`${c.file} is height ${c.height}/ascent ${c.ascent}, expected 10/8`);
+  if (c.height !== 9 || c.ascent !== 7) fail.push(`${c.file} is height ${c.height}/ascent ${c.ascent}, expected 9/7 — the tab line pitch`);
 }
 
 // The half-height font the plugin measures with Font.width(..., small=true): that maths

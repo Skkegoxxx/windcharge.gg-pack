@@ -12,7 +12,9 @@
 import fs from "fs";
 import zlib from "zlib";
 
-const W = 300, H = 10;
+// The tab's line pitch is 9px. A cell taller than that overlaps the row above it, so the
+// strip is 9 tall with its last row left transparent: 8px of visible cell, 1px of gap.
+const W = 300, H = 9;
 const OUT = "assets/windcharge/textures/font";
 
 // --- minimal RGBA PNG writer ------------------------------------------------------------
@@ -55,22 +57,22 @@ function cell(fill, accent) {
     const i = (y * W + x) * 4;
     px[i] = r; px[i + 1] = g; px[i + 2] = b; px[i + 3] = a;
   };
-  for (let y = 0; y < H; y++) {
+  for (let y = 0; y < H - 1; y++) {   // last row stays clear: that is the gap between cells
     for (let x = 0; x < W; x++) {
       // Corner pixels cut, so the strip reads as a rounded cell rather than a hard bar.
-      const corner = (x === 0 || x === W - 1) && (y === 0 || y === H - 1);
+      const corner = (x === 0 || x === W - 1) && (y === 0 || y === H - 2);
       if (corner) continue;
       put(x, y, x < 3 && accent ? accent : fill);
     }
   }
   // The far column must stay opaque enough that Minecraft doesn't trim it when it measures
   // the glyph — a trimmed edge would shorten the advance and shift every column by a pixel.
-  for (let y = 1; y < H - 1; y++) put(W - 1, y, fill[3] < 8 ? [fill[0], fill[1], fill[2], 8] : fill);
+  for (let y = 1; y < H - 2; y++) put(W - 1, y, fill[3] < 8 ? [fill[0], fill[1], fill[2], 8] : fill);
   return px;
 }
 
-const BODY  = [64, 71, 99, 130];    // row body, translucent slate
-const BAND  = [52, 58, 82, 170];    // summary band, a touch darker and heavier
+const BODY  = [88, 96, 130, 165];   // row body, translucent slate
+const BAND  = [58, 64, 92, 205];    // summary band, darker and heavier
 const ALLY  = [168, 85, 247, 235];  // brand purple
 const ENEMY = [230, 69, 83, 235];   // red
 
