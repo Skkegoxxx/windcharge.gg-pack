@@ -7,5 +7,7 @@
   "subtitles.windcharge.sell":  "Item sold",
   "subtitles.windcharge.click": "Click",
   "subtitles.windcharge.shuriken": "Shuriken thrown",
-  "subtitles.windcharge.jump":  "Jump"
+  "subtitles.windcharge.jump":  "Jump",
+  "subtitles.windcharge.planted": "Spike planted",
+  "subtitles.windcharge.defused": "Spike defused"
 }
