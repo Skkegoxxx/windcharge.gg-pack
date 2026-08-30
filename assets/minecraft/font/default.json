@@ -1,12 +1,107 @@
 {
   "providers": [
-    { "type": "reference", "id": "minecraft:include/space" },
-    { "type": "reference", "id": "minecraft:include/default" },
-    { "type": "bitmap", "file": "windcharge:font/executive.png", "ascent": 7, "height": 8, "chars": [""] },
-    { "type": "bitmap", "file": "windcharge:font/admin.png", "ascent": 7, "height": 8, "chars": [""] },
-    { "type": "bitmap", "file": "windcharge:font/creator.png", "ascent": 7, "height": 8, "chars": [""] },
-    { "type": "bitmap", "file": "windcharge:font/helper.png", "ascent": 7, "height": 8, "chars": [""] },
-    { "type": "bitmap", "file": "windcharge:font/media.png", "ascent": 7, "height": 8, "chars": [""] },
-    { "type": "bitmap", "file": "windcharge:font/mod.png", "ascent": 7, "height": 8, "chars": [""] }
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/executive.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/admin.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/creator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/helper.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/media.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/mod.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:item/coin.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\uE010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:item/timer.png",
+      "ascent": 12,
+      "height": 16,
+      "chars": [
+        "\uE011"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uF801": -1,
+        "\uF802": -2,
+        "\uF803": -4,
+        "\uF804": -8,
+        "\uF805": -16,
+        "\uF806": -32,
+        "\uF807": -64,
+        "\uF808": -128,
+        "\uF809": -256,
+        "\uF811": 1,
+        "\uF812": 2,
+        "\uF813": 4,
+        "\uF814": 8,
+        "\uF815": 16,
+        "\uF816": 32,
+        "\uF817": 64,
+        "\uF818": 128,
+        "\uF819": 256
+      }
+    }
   ]
 }
