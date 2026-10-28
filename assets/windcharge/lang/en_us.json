@@ -9,5 +9,6 @@
   "subtitles.windcharge.shuriken": "Shuriken thrown",
   "subtitles.windcharge.jump":  "Jump",
   "subtitles.windcharge.planted": "Spike planted",
-  "subtitles.windcharge.defused": "Spike defused"
+  "subtitles.windcharge.defused": "Spike defused",
+  "container.inventory": ""
 }

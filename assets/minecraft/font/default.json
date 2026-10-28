@@ -81,6 +81,15 @@
       ]
     },
     {
+      "type": "bitmap",
+      "file": "windcharge:font/shop.png",
+      "ascent": 31,
+      "height": 240,
+      "chars": [
+        "\uE020"
+      ]
+    },
+    {
       "type": "space",
       "advances": {
         "\uF801": -1,
