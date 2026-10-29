@@ -1,0 +1,1 @@
+{"providers": [{"type": "space", "advances": {" ": 4, "": 1, "": 2, "": 4, "": 8, "": 16, "": 32}}, {"type": "bitmap", "file": "windcharge:font/tooltip/star.png", "ascent": 7, "height": 8, "chars": [""]}]}
