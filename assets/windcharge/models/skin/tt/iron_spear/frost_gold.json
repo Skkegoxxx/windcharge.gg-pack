@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/iron_spear",
+  "textures": {
+    "layer0": "minecraft:item/iron_spear",
+    "layer1": "windcharge:skin/tt/iron_spear/frost_gold"
+  }
+}

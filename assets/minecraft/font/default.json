@@ -624,6 +624,123 @@
       "chars": [
         "\uE00A"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/trims.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/weapons.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/armor_pick.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/pick_tt.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/pick_goat.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/pick_stk.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/pick_mace.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/trims_colors.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/weapons_colors.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0C8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/on.png",
+      "ascent": -40,
+      "height": 16,
+      "chars": [
+        "\uE0CA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/on.png",
+      "ascent": -58,
+      "height": 16,
+      "chars": [
+        "\uE0CB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/on.png",
+      "ascent": -76,
+      "height": 16,
+      "chars": [
+        "\uE0CC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/cosmetics/on.png",
+      "ascent": -94,
+      "height": 16,
+      "chars": [
+        "\uE0CD"
+      ]
     }
   ]
 }

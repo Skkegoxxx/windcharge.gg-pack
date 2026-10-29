@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/iron_sword",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword",
+    "layer1": "windcharge:skin/goat/sword/flow_quartz"
+  }
+}

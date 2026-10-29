@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/mace",
+  "textures": {
+    "layer0": "minecraft:item/mace",
+    "layer1": "windcharge:skin/tt/mace/frost_iron"
+  }
+}

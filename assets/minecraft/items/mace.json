@@ -1,0 +1,320 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "windcharge:skin/tt/charge/quartz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_quartz"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_iron"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_netherite"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/redstone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_redstone"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_copper"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_gold"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/emerald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_emerald"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_diamond"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/lapis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_lapis"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/amethyst",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_amethyst"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/charge/resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/charge_resin"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/quartz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_quartz"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_iron"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_netherite"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/redstone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_redstone"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_copper"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_gold"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/emerald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_emerald"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_diamond"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/lapis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_lapis"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/amethyst",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_amethyst"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/frost/resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/frost_resin"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/quartz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_quartz"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_iron"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_netherite"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/redstone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_redstone"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_copper"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_gold"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/emerald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_emerald"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_diamond"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/lapis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_lapis"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/amethyst",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_amethyst"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/linear/resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/linear_resin"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/quartz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_quartz"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_iron"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/netherite",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_netherite"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/redstone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_redstone"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_copper"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_gold"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/emerald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_emerald"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_diamond"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/lapis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_lapis"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/amethyst",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_amethyst"
+        }
+      },
+      {
+        "when": "windcharge:skin/tt/tracks/resin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "windcharge:skin/tt/mace/tracks_resin"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}

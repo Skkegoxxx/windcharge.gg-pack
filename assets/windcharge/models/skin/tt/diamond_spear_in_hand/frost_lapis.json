@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/diamond_spear_in_hand",
+  "textures": {
+    "layer0": "minecraft:item/diamond_spear_in_hand",
+    "layer1": "windcharge:skin/tt/diamond_spear_in_hand/frost_lapis"
+  }
+}
