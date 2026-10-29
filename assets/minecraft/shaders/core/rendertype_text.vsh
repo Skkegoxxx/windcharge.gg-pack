@@ -77,8 +77,8 @@ void main() {
         texCoord0 = UV0;
         return;
     }
-    // Only on screen (no perspective) and only as far down as the tab reaches.
-    if (ProjMat[3][3] == 1.0 && pos.y < 240.0) {
+    // Only on screen (no perspective) and only as far down as the tab reaches (TabBoard.DOWN lines lower).
+    if (ProjMat[3][3] == 1.0 && pos.y < 300.0) {
         pos.y += headDrop(Color);
     }
     if (ProjMat[3][3] == 1.0 && pos.y < BOSS_ROW && hudHead(Color)) {
