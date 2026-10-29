@@ -1,0 +1,33 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 3,
+        "\uF000": 1,
+        "\uF001": 2,
+        "\uF002": 4,
+        "\uF003": 8,
+        "\uF004": 16,
+        "\uF005": 32
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/tooltip/pixel.png",
+      "ascent": 5,
+      "height": 11,
+      "chars": [
+        "!#%()+,-./012345",
+        "6789:;=?@ABCDEFG",
+        "HIJKLMNOPQRSTUVW",
+        "XYZ[]abcdefghijk",
+        "lmnopqrstuvwxyz\u0000"
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:include/default"
+    }
+  ]
+}

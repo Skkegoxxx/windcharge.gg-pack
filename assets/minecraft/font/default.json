@@ -111,6 +111,321 @@
         "\uF818": 128,
         "\uF819": 256
       }
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/background.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_0.png",
+      "ascent": -20,
+      "height": 36,
+      "chars": [
+        "\uE031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_1.png",
+      "ascent": -60,
+      "height": 36,
+      "chars": [
+        "\uE032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_2.png",
+      "ascent": -100,
+      "height": 36,
+      "chars": [
+        "\uE033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_3.png",
+      "ascent": -140,
+      "height": 36,
+      "chars": [
+        "\uE034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_4.png",
+      "ascent": -20,
+      "height": 36,
+      "chars": [
+        "\uE035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_5.png",
+      "ascent": -60,
+      "height": 36,
+      "chars": [
+        "\uE036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_6.png",
+      "ascent": -100,
+      "height": 36,
+      "chars": [
+        "\uE037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/gray_7.png",
+      "ascent": -140,
+      "height": 36,
+      "chars": [
+        "\uE038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_0.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_0.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE050"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_1.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_1.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE051"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_2.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_2.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE052"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_3.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_3.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE053"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_4.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_4.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE054"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_5.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE045"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_5.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE055"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_6.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE046"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_6.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE056"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_7.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE047"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_7.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE057"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_8.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE048"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_8.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE058"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_9.png",
+      "ascent": -8,
+      "height": 8,
+      "chars": [
+        "\uE049"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/digit_9.png",
+      "ascent": -7,
+      "height": 8,
+      "chars": [
+        "\uE059"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_1.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE060"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_2.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE061"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_4.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE062"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_8.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE063"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_16.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE064"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/seg_32.png",
+      "ascent": -11,
+      "height": 2,
+      "chars": [
+        "\uE065"
+      ]
     }
   ]
 }
