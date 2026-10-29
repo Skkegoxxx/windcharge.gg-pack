@@ -570,6 +570,60 @@
       "chars": [
         "\uE065"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/play/background.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0A0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/play/queued.png",
+      "ascent": 18,
+      "height": 227,
+      "chars": [
+        "\uE0A1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/vip.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/vip_plus.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/mvp.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/mvp_plus_plus.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE00A"
+      ]
     }
   ]
 }
