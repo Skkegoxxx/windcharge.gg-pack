@@ -150,6 +150,15 @@
     },
     {
       "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_0.png",
+      "ascent": -20,
+      "height": 36,
+      "chars": [
+        "\uE080"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "windcharge:font/agents/gray_1.png",
       "ascent": -60,
       "height": 36,
@@ -173,6 +182,15 @@
       "height": 36,
       "chars": [
         "\uE079"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_1.png",
+      "ascent": -60,
+      "height": 36,
+      "chars": [
+        "\uE081"
       ]
     },
     {
@@ -204,6 +222,15 @@
     },
     {
       "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_2.png",
+      "ascent": -100,
+      "height": 36,
+      "chars": [
+        "\uE082"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "windcharge:font/agents/gray_3.png",
       "ascent": -140,
       "height": 36,
@@ -227,6 +254,15 @@
       "height": 36,
       "chars": [
         "\uE07B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_3.png",
+      "ascent": -140,
+      "height": 36,
+      "chars": [
+        "\uE083"
       ]
     },
     {
@@ -258,6 +294,15 @@
     },
     {
       "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_4.png",
+      "ascent": -20,
+      "height": 36,
+      "chars": [
+        "\uE084"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "windcharge:font/agents/gray_5.png",
       "ascent": -60,
       "height": 36,
@@ -281,6 +326,15 @@
       "height": 36,
       "chars": [
         "\uE07D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_5.png",
+      "ascent": -60,
+      "height": 36,
+      "chars": [
+        "\uE085"
       ]
     },
     {
@@ -312,6 +366,15 @@
     },
     {
       "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_6.png",
+      "ascent": -100,
+      "height": 36,
+      "chars": [
+        "\uE086"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "windcharge:font/agents/gray_7.png",
       "ascent": -140,
       "height": 36,
@@ -335,6 +398,15 @@
       "height": 36,
       "chars": [
         "\uE07F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/agents/pressed_7.png",
+      "ascent": -140,
+      "height": 36,
+      "chars": [
+        "\uE087"
       ]
     },
     {
