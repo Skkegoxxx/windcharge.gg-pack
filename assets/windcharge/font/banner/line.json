@@ -1,0 +1,56 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uf100": 0.25,
+        "\uf120": -0.25,
+        "\uf101": 0.5,
+        "\uf121": -0.5,
+        "\uf102": 1.0,
+        "\uf122": -1.0,
+        "\uf103": 2.0,
+        "\uf123": -2.0,
+        "\uf104": 4.0,
+        "\uf124": -4.0,
+        "\uf105": 8.0,
+        "\uf125": -8.0,
+        "\uf106": 16.0,
+        "\uf126": -16.0,
+        "\uf107": 32.0,
+        "\uf127": -32.0,
+        "\uf108": 64.0,
+        "\uf128": -64.0,
+        "\uf109": 128.0,
+        "\uf129": -128.0
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/banner/p_0.png",
+      "ascent": -5,
+      "height": 8,
+      "chars": [
+        "\ue200\ue201\ue202\ue203\ue204\ue205\ue206\ue207\ue208\ue209\ue20a\ue20b\ue20c\ue20d\ue20e\ue20f\ue210\ue211\ue212\ue213\ue214\ue215\ue216\ue217\ue218\ue219\ue21a\ue21b\ue21c\ue21d\ue21e\ue21f\ue220\ue221\ue222\ue223"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/banner/m_0.png",
+      "ascent": -5,
+      "height": 8,
+      "chars": [
+        "\ue300\ue301\ue302\ue303\ue304\ue305\ue306\ue307\ue308\ue309\ue30a\ue30b\ue30c\ue30d\ue30e\ue30f\ue310\ue311\ue312\ue313\ue314\ue315\ue316\ue317\ue318\ue319\ue31a\ue31b\ue31c\ue31d\ue31e\ue31f\ue320\ue321\ue322\ue323\ue324"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/banner/b_0.png",
+      "ascent": -5,
+      "height": 8,
+      "chars": [
+        "\ue400\ue401\ue402\ue403\ue404\ue405"
+      ]
+    }
+  ]
+}

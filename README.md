@@ -57,3 +57,14 @@ The match scoreboard the plugin draws in the tab header (`TabBoard`). Fonts `win
 - `U+F000`–`U+F008` and `U+F010`–`U+F018` spaces of ±1 to ±256
 
 Player heads can't take a font, so `shaders/core/rendertype_text.vsh` moves them down instead: a head tinted with one of the board's marker colours drops by the low bits of its blue.
+
+## Round banner
+
+What the middle of the screen says when a round ends: `ROUND 6`, then `WON` or `LOST`, then why and the score (`RoundBanner` in the plugin). It goes in the vanilla title, which draws at four times size, so the glyphs in `windcharge:banner/*` are at a quarter and every pixel lands on a screen pixel. One font per height: `label`, `word` and `line`, each with a `_shadow` one pixel lower.
+
+- `U+E200`–`U+E223` kill feed pixel font, digits then A to Z
+- `U+E300`–`U+E321` the game font's small caps, digits, `|` and `:`
+- `U+E400`–`U+E405` `W O N L S T` at three times size, bold
+- `U+F100`–`U+F109` and `U+F120`–`U+F129` spaces of ±1 to ±512 screen pixels
+
+Every glyph advances the same 28px (a near invisible pixel in the corner of each cell), so the plugin places them one by one.
