@@ -43,3 +43,17 @@ Other items:
 Each has an item definition in `assets/windcharge/items/`, a `minecraft:item/generated` model in `assets/windcharge/models/item/`, and a texture in `assets/windcharge/textures/item/`.
 
 To throw the shuriken as a projectile, have the server/plugin spawn a projectile (e.g. a snowball) whose item carries `minecraft:item_model` = `windcharge:shuriken` — it renders this flat sprite spinning in flight. The pack only supplies the look; a resource pack can't create new projectile entities on its own.
+
+## Tab scoreboard
+
+The match scoreboard the plugin draws in the tab header (`TabBoard`). Fonts `windcharge:board/-1` to `windcharge:board/8` all hold the same glyphs, each one dropped that many pixels below the top of a 9px tab line, so anything can sit anywhere on the panel. Textures in `assets/windcharge/textures/font/board/`.
+
+- The kill feed pixel font on the plain characters, plus `_` and a 3px space
+- `U+E100`–`U+E10A` small digits and `$`, `U+E110`–`U+E112` sword, skull and heart
+- `U+E120`/`U+E130` the big score digits and their shadow, `U+E140`/`U+E141` the two top halves
+- `U+E150`–`U+E159` the panel for one to five a side, in two halves
+- `U+E160` row fill, `U+E161`/`U+E162` your row's frame, `U+E170`–`U+E175` place medals (alive, dead)
+- `U+E180`–`U+E184` ping bars, `U+E190` the money bill
+- `U+F000`–`U+F008` and `U+F010`–`U+F018` spaces of ±1 to ±256
+
+Player heads can't take a font, so `shaders/core/rendertype_text.vsh` moves them down instead: a head tinted with one of the board's marker colours drops by the low bits of its blue.
