@@ -56,9 +56,27 @@ bool feedColor(vec4 color, out float lane) {
     return (c.r & 7) == 6 && (c.g & 7) == 1 && mark >= 1 && mark <= 3;
 }
 
+// The "Inventory" label of a six row chest sits on our drawn menus. The lang file blanks it, but
+// some clients keep it: it is the only #404040 text at that spot, so it goes off screen.
+bool inventoryLabel(vec3 pos, vec4 color) {
+    if (ProjMat[3][3] != 1.0 || ivec3(round(color.rgb * 255.0)) != ivec3(64)) return false;
+    vec4 at = ModelViewMat * vec4(pos, 1.0);
+    float left = floor((round(2.0 / ProjMat[0][0]) - 176.0) / 2.0);
+    float top = floor((round(-2.0 / ProjMat[1][1]) - 222.0) / 2.0);
+    return at.x >= left + 7.0 && at.x <= left + 70.0 && at.y >= top + 126.0 && at.y <= top + 138.0;
+}
+
 void main() {
     vec3 pos = Position;
     float lane;
+    if (inventoryLabel(pos, Color)) {
+        gl_Position = vec4(2.0, 2.0, 2.0, 1.0);
+        sphericalVertexDistance = 0.0;
+        cylindricalVertexDistance = 0.0;
+        vertexColor = vec4(0.0);
+        texCoord0 = UV0;
+        return;
+    }
     // Only on screen (no perspective) and only as far down as the tab reaches.
     if (ProjMat[3][3] == 1.0 && pos.y < 240.0) {
         pos.y += headDrop(Color);
