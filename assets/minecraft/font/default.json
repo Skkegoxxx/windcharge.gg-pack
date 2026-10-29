@@ -726,7 +726,7 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:font/cosmetics/pick_tt.png",
+      "file": "windcharge:font/cosmetics/pick_1.png",
       "ascent": 18,
       "height": 227,
       "chars": [
@@ -735,7 +735,7 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:font/cosmetics/pick_goat.png",
+      "file": "windcharge:font/cosmetics/pick_2.png",
       "ascent": 18,
       "height": 227,
       "chars": [
@@ -744,7 +744,7 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:font/cosmetics/pick_stk.png",
+      "file": "windcharge:font/cosmetics/pick_mace.png",
       "ascent": 18,
       "height": 227,
       "chars": [
@@ -753,7 +753,7 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:font/cosmetics/pick_mace.png",
+      "file": "windcharge:font/cosmetics/trims_colors.png",
       "ascent": 18,
       "height": 227,
       "chars": [
@@ -762,20 +762,11 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:font/cosmetics/trims_colors.png",
-      "ascent": 18,
-      "height": 227,
-      "chars": [
-        "\uE0C7"
-      ]
-    },
-    {
-      "type": "bitmap",
       "file": "windcharge:font/cosmetics/weapons_colors.png",
       "ascent": 18,
       "height": 227,
       "chars": [
-        "\uE0C8"
+        "\uE0C7"
       ]
     },
     {
