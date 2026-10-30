@@ -73,11 +73,119 @@
     },
     {
       "type": "bitmap",
-      "file": "windcharge:item/timer.png",
+      "file": "minecraft:item/clock_00.png",
       "ascent": 12,
       "height": 16,
       "chars": [
         "\uE011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/money.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\uE012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e100.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE090"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e101.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE091"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e102.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE092"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e103.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE093"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e104.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE094"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e105.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE095"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e106.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE096"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e107.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE097"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e108.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE098"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e109.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE099"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "windcharge:font/board/e10a.png",
+      "ascent": 6,
+      "height": 10,
+      "chars": [
+        "\uE09A"
       ]
     },
     {

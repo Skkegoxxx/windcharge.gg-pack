@@ -1072,7 +1072,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e150.png",
       "ascent": 4,
-      "height": 92,
+      "height": 83,
       "chars": [
         "\ue150"
       ]
@@ -1081,7 +1081,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e151.png",
       "ascent": 4,
-      "height": 92,
+      "height": 83,
       "chars": [
         "\ue151"
       ]
@@ -1090,7 +1090,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e152.png",
       "ascent": 4,
-      "height": 119,
+      "height": 110,
       "chars": [
         "\ue152"
       ]
@@ -1099,7 +1099,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e153.png",
       "ascent": 4,
-      "height": 119,
+      "height": 110,
       "chars": [
         "\ue153"
       ]
@@ -1108,7 +1108,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e154.png",
       "ascent": 4,
-      "height": 146,
+      "height": 137,
       "chars": [
         "\ue154"
       ]
@@ -1117,7 +1117,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e155.png",
       "ascent": 4,
-      "height": 146,
+      "height": 137,
       "chars": [
         "\ue155"
       ]
@@ -1126,7 +1126,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e156.png",
       "ascent": 4,
-      "height": 173,
+      "height": 164,
       "chars": [
         "\ue156"
       ]
@@ -1135,7 +1135,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e157.png",
       "ascent": 4,
-      "height": 173,
+      "height": 164,
       "chars": [
         "\ue157"
       ]
@@ -1144,7 +1144,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e158.png",
       "ascent": 4,
-      "height": 200,
+      "height": 191,
       "chars": [
         "\ue158"
       ]
@@ -1153,7 +1153,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/e159.png",
       "ascent": 4,
-      "height": 200,
+      "height": 191,
       "chars": [
         "\ue159"
       ]
@@ -1288,7 +1288,7 @@
       "type": "bitmap",
       "file": "windcharge:font/board/bill.png",
       "ascent": 4,
-      "height": 10,
+      "height": 9,
       "chars": [
         "\ue190"
       ]
